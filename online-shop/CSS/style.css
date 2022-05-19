@@ -9,6 +9,7 @@
 body {
   font-family: "Lato";
   width: 100%;
+  position: relative;
 }
 
 ul,

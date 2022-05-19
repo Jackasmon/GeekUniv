@@ -7,6 +7,7 @@
 .header-catalog__content {
     min-height: 148px;
     padding: 60px 0 60px 0;
+    background: #F8F3F4;
 }
 
 .header-catalog__content .container {
@@ -51,10 +52,10 @@
 
 /*------ CATALOG HEAD ------*/
 
-
 .catalog-head {
     display: flex;
     color: #6F6E6E;
+
 }
 
 .catalog-head__filter {
@@ -216,7 +217,11 @@
 
 /*----- CATALOG CARDS -----*/
 .catalog.container {
-    padding: 0 0 109px 0;
+    padding: 51px 0 109px 0;
+}
+
+.catalog-cards.featured-items__cards {
+    padding: 50px 0 31px 0;
 }
 
 .catalog-cards__pagination {
