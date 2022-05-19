@@ -1,0 +1,380 @@
+/*------ MEDIA QUERIES -------*/
+/*------ min - WIDTH -----*/
+@media (min-width: 2200px) {
+    .header__content {
+        background-position-x: 250px;
+    }
+}
+
+@media (min-width: 2400px) {
+    .header__content {
+        background-position-x: 550px;
+    }
+}
+
+/*------ max - WIDTH -----*/
+@media (max-width: 1440px) {
+    .header__content {
+        background-position-x: -50px;
+    }
+}
+
+@media (max-width: 1241px) {
+    .aside-display-none {
+        left: -50px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .header__content {
+        background-position-x: -150px;
+    }
+}
+
+@media (max-width: 1169px) {
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids,
+    .things__accesories {
+        flex: 1 1 300px;
+    }
+
+    .card_box:last-child {
+        display: none;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    .header__content {
+        background-size: 70%;
+        min-height: 600px;
+    }
+
+
+    .header__content-text {
+        margin-left: 400px;
+        margin-bottom: auto;
+    }
+
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids,
+    .things__accesories {
+        flex: 1 1 250px;
+        height: 167px;
+    }
+}
+
+@media (max-width: 840px) {
+    .header__content-text::before {
+        height: 92px;
+    }
+
+    .header__nav {
+        padding: 0 15px 0 15px;
+    }
+
+    .header__content {
+        min-height: 368px;
+        background-size: 50%;
+        background-position-x: 0;
+
+    }
+
+    .header__content-text {
+        font-size: 24px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .header__content-text .bold_text {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .things.container {
+        padding-top: 20px;
+        padding-bottom: 65px;
+    }
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids,
+    .things__accesories {
+        flex: 1 1 233px;
+
+    }
+
+    .things__accesories {
+        height: 116px;
+    }
+
+    .things__for-women,
+    .things__for-man {
+        margin-right: 18px;
+    }
+
+    .things__accesories {
+        margin-top: 18px;
+    }
+
+    .benefits {
+        padding: 48px 0 64px 0;
+    }
+
+    .benefits .container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .benefits__of-shop:not(:last-child) {
+        margin-bottom: 48px;
+    }
+
+    .subscribe {
+        padding: 64px 0 140px 0;
+
+    }
+
+    .subscribe .container {
+        flex-direction: column;
+
+    }
+
+    .subscribe__user-pic-descr {
+        margin-bottom: 48px;
+    }
+
+    .subscribe__form-text {
+        margin-bottom: 27px;
+    }
+
+
+
+}
+
+@media (max-width:780px) {
+    .card_box {
+        margin: 15px 8px 15px 8px;
+    }
+
+    .catalog-head {
+        justify-content: space-between;
+    }
+
+    .catalog-head__filter {
+        flex-basis: auto;
+    }
+
+    .subscribe {
+        background-position: left 50px;
+    }
+}
+
+@media (max-width:764px) {
+    .header__content {
+        background-image: none;
+    }
+
+    .header__content-text {
+        margin: 0 auto;
+    }
+
+    .things.container {
+        padding-top: 64px;
+    }
+
+    .things__for-people {
+        flex-direction: column;
+        max-width: 343px;
+        margin: 0 auto;
+    }
+
+    .things__for-women,
+    .things__for-man,
+    .things__accesories,
+    .things__for-kids {
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .things__accesories {
+        max-height: 111px;
+    }
+
+    .footer {
+        padding: 40px 0 10px 0;
+    }
+
+    .footer .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__social {
+        margin-bottom: 40px;
+    }
+
+
+
+}
+
+@media (max-width:751px) {
+    .card_box:last-child {
+        display: block;
+    }
+
+}
+
+@media (max-width:545px) {
+    .header__nav-search-bar {
+        left: 51px;
+        top: 84px;
+    }
+
+    .header-catalog__content {
+        padding: 24px 0 46px 0;
+    }
+
+    .header-catalog__content .purple_text {
+        margin-bottom: 32px;
+    }
+
+    .header-catalog__content .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bread-crumbs {
+        justify-content: center;
+    }
+
+    .catalog.container {
+        padding: 24px 0 64px 0;
+    }
+
+    .catalog-head__filter span {
+        display: none;
+    }
+
+    .catalog-head__filter svg {
+        width: 37px;
+        height: 25px;
+    }
+
+    .filter_icon h2 {
+        display: none;
+    }
+
+    .catalog-head__atributes {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media (max-width:391px) {
+
+    .header__content {
+        min-height: 363px;
+    }
+
+    .header__content-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header__content-text .bold_text {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .header__content-text::before {
+        height: auto;
+    }
+
+    .catalog-head__filter-hidden {
+        width: 300px;
+    }
+
+
+    .things.container {
+        padding-bottom: 30px;
+    }
+
+    .header__nav-actions-icons:not(:first-child) {
+        display: none;
+    }
+
+    .search-lable.header__nav-actions-icons {
+        display: block;
+    }
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids {
+        min-height: 248px;
+    }
+
+
+    .subscribe_lable input[type=email] {
+        width: 200px;
+    }
+
+    #btn {
+        width: 80px;
+    }
+
+    .subscribe__form-text {
+        text-align: center;
+    }
+
+    .aside-display-none {
+        left: -140px;
+    }
+
+    .aside-menu {
+        min-height: 600px;
+    }
+
+    .cards_img,
+    .card_box {
+        width: 358px;
+    }
+}
+
+@media (max-width:374px) {
+
+    .cards_img,
+    .card_box {
+        width: 200px;
+    }
+
+    .card_hover {
+        top: 100px;
+        left: 30px;
+    }
+
+    .catalog-head__filter-hidden {
+        width: 200px;
+    }
+}
+
+@media (max-width:291px) {
+    .header__content-text {
+        font-size: 15px;
+    }
+
+    .header__content-text .bold_text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+
+}
