@@ -25,8 +25,6 @@
     }
 }
 
-
-
 @media (max-width: 1169px) {
 
     .things__for-women,
@@ -429,7 +427,7 @@
     }
 
     .content-img {
-        width: 143px;
+        width: 160px;
         height: 188px;
     }
 
@@ -441,7 +439,7 @@
         padding: 10px 0 37px 17px;
     }
 
-    .cart-card__close {
+    .cart-card__close_div {
         padding: 15px 10px 0 0;
     }
 
@@ -541,6 +539,10 @@
     .cart-card {
         align-self: center;
     }
+
+    .subscribe {
+        padding: 64px 0 109px 0;
+    }
 }
 
 @media (max-width: 381px) {
@@ -567,7 +569,7 @@
     }
 
     .content-img {
-        width: 100px;
+        width: 129px;
         height: 150px;
     }
 
