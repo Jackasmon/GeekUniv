@@ -1,13 +1,21 @@
 const hamburger = document.querySelector('.hamburger'),
     menu = document.querySelector('.menu'),
-    closeElem = document.querySelector('.menu__close'),
+    closeElem = document.querySelector('.close'),
     menuOverlay = document.querySelector('.menu__overlay');
 
 hamburger.addEventListener('click', () => {
     menu.classList.add('active');
 });
 
-closeElem.addEventListener('click', () => {
+hamburger.addEventListener('click', () => {
+    menuOverlay.classList.add('active');
+});
+
+hamburger.addEventListener('click', () => {
+    menuOverlay.classList.add('over');
+});
+
+menuOverlay.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
@@ -15,9 +23,28 @@ menuOverlay.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
-const percents = document.querySelectorAll('.what-use__cani-percent'),
-    lines = document.querySelectorAll('.what-use__cani-divider_fill');
+menuOverlay.addEventListener('click', () => {
+    menuOverlay.classList.remove('active');
+});
+menuOverlay.addEventListener('click', () => {
+    menuOverlay.classList.remove('over');
+});
 
-percents.forEach((item, i) => {
-    lines[i].style.width = item.innerHTML;
-})
+
+
+
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 50,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+var swiper2 = new Swiper(".mySwiper2", {
+    direction: "vertical",
+    spaceBetween: 50,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
