@@ -4,33 +4,16 @@ const hamburger = document.querySelector('.hamburger'),
     menuOverlay = document.querySelector('.menu__overlay');
 
 hamburger.addEventListener('click', () => {
-    menu.classList.add('active');
-});
-
-hamburger.addEventListener('click', () => {
-    menuOverlay.classList.add('active');
-});
-
-hamburger.addEventListener('click', () => {
-    menuOverlay.classList.add('over');
+    menu.classList.add('active'),
+        menuOverlay.classList.add('over'),
+        menuOverlay.classList.add('active');
 });
 
 menuOverlay.addEventListener('click', () => {
-    menu.classList.remove('active');
+    menu.classList.remove('active'),
+        menuOverlay.classList.remove('active'),
+        menuOverlay.classList.remove('over');
 });
-
-menuOverlay.addEventListener('click', () => {
-    menu.classList.remove('active');
-});
-
-menuOverlay.addEventListener('click', () => {
-    menuOverlay.classList.remove('active');
-});
-menuOverlay.addEventListener('click', () => {
-    menuOverlay.classList.remove('over');
-});
-
-
 
 
 var swiper = new Swiper(".mySwiper", {
